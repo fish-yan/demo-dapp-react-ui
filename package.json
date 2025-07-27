@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d docs --repo git@github.com:fish-yan/demo-dapp-react-ui.git"
   },
-  "homepage": "https://fish-yan.github.io/demo-dapp-react-ui/",
+  "homepage": "https://fish-yan.github.io/demo-dapp-react-ui",
   "dependencies": {
     "@ton-community/assets-sdk": "0.0.5",
     "@ton/core": "^0.56.3",
