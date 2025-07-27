@@ -8,9 +8,9 @@
     "build": "tsc && GH_PAGES=true VITE_GH_PAGES=true vite build",
     "build:dev": "tsc && vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist --repo git@github.com:fish-yan/demo-dapp-react-ui.git"
+    "deploy": "gh-pages -d docs --repo git@github.com:fish-yan/demo-dapp-react-ui.git"
   },
-  "homepage": "https://fish-yan.github.io/demo-dapp-react-ui.git/",
+  "homepage": "https://fish-yan.github.io/demo-dapp-react-ui/",
   "dependencies": {
     "@ton-community/assets-sdk": "0.0.5",
     "@ton/core": "^0.56.3",
