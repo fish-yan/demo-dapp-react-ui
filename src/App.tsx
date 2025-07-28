@@ -21,7 +21,7 @@ function App() {
                 imageUrl: "https://app.ont.io/ontoMsgPic/onto.png",
                 tondns: "onto.app",
                 aboutUrl: "https://onto.app",
-                universalLink: "https://link.onto.app/ton-connect",
+                universalLink: "ontoprovider://link/ton-connect",
                 jsBridgeKey: "onto",
                 bridgeUrl: "https://bridge.tonapi.io/bridge",
                 platforms: ["ios", "android"]
