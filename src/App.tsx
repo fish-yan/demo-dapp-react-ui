@@ -16,6 +16,17 @@ function App() {
           walletsListConfiguration={{
             includeWallets: [
               {
+                appName: "ONTO",
+                name: "ONTO",
+                imageUrl: "https://app.ont.io/ontoMsgPic/onto.png",
+                tondns: "onto.app",
+                aboutUrl: "https://onto.app",
+                universalLink: "https://link.onto.app/ton-connect",
+                jsBridgeKey: "onto",
+                bridgeUrl: "https://bridge.tonapi.io/bridge",
+                platforms: ["ios", "android"]
+              },
+              {
                 appName: "tonwallet",
                 name: "TON Wallet",
                 imageUrl: "https://wallet.ton.org/assets/ui/qr-logo.png",
@@ -217,17 +228,6 @@ function App() {
                 universalLink: "https://t.me/Bybit_Web3_wallet_bot?attach=wallet",
                 bridgeUrl: "https://api-node.bybit.com/spot/api/web3/bridge/ton/bridge",
                 platforms: ["ios", "android", "macos", "windows", "linux"]
-              },
-              {
-                appName: "ONTO",
-                name: "ONTO",
-                imageUrl: "https://app.ont.io/ontoMsgPic/onto.png",
-                tondns: "onto.app",
-                aboutUrl: "https://onto.app",
-                universalLink: "https://link.onto.app/ton-connect",
-                jsBridgeKey: "onto",
-                bridgeUrl: "https://bridge.tonapi.io/bridge",
-                platforms: ["ios", "android"]
               },
               {
                 appName: "defiway",
