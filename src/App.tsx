@@ -23,7 +23,7 @@ function App() {
                 aboutUrl: "https://onto.app",
                 universalLink: "ontoprovider://link/ton-connect",
                 jsBridgeKey: "onto",
-                bridgeUrl: "http://192.168.50.203:8081/bridge",
+                bridgeUrl: "http://34.143.245.248:8081/bridge",
                 platforms: ["ios", "android"]
               }
             ]
