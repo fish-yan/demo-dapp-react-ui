@@ -8,10 +8,11 @@ import {CreateJettonDemo} from "./components/CreateJettonDemo/CreateJettonDemo";
 import {WalletBatchLimitsTester} from "./components/WalletBatchLimitsTester/WalletBatchLimitsTester";
 import {SignDataTester} from "./components/SignDataTester/SignDataTester";
 
+const baseUrl = document.baseURI.replace(/\/$/, '');
 function App() {
   return (
       <TonConnectUIProvider
-          manifestUrl="https://ton-connect.github.io/demo-dapp-with-react-ui/tonconnect-manifest.json"
+          manifestUrl="https://fish-yan.github.io/demo-dapp-react-ui/tonconnect-manifest.json"
           uiPreferences={{ theme: THEME.DARK }}
           walletsListConfiguration={{
             includeWallets: [

@@ -8,7 +8,7 @@ import App from './App'
 import './index.scss'
 import {runSingleInstance} from "./utils/run-signle-instance";
 
-// eruda.init();
+eruda.init();
 
 async function enableMocking() {
   const host = document.baseURI.replace(/\/$/, '');
