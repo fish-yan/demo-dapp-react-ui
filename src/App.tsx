@@ -9,6 +9,7 @@ import {WalletBatchLimitsTester} from "./components/WalletBatchLimitsTester/Wall
 import {SignDataTester} from "./components/SignDataTester/SignDataTester";
 
 const baseUrl = document.baseURI.replace(/\/$/, '');
+
 function App() {
   return (
       <TonConnectUIProvider
@@ -25,17 +26,6 @@ function App() {
                 universalLink: "https://link.onto.app/ton-connect",
                 jsBridgeKey: "onto",
                 bridgeUrl: "https://tonbridge-test.onto.app/bridge",
-                platforms: ["ios", "android"]
-              },
-              {
-                appName: "OKX1",
-                name: "OKX1",
-                imageUrl: "https://static.okx.com/cdn/assets/imgs/247/58E63FEA47A2B7D7.png",
-                tondns: "okxwallet.com",
-                aboutUrl: "https://www.okx.com/okx-wallet",
-                universalLink: "https://www.okx.com/download?appendQuery=true&deeplink=okx://web3/wallet/tonconnect",
-                jsBridgeKey: "okx",
-                bridgeUrl: "https://www.okx.com/tonbridge/discover/rpc/bridge",
                 platforms: ["ios", "android"]
               }
             ]

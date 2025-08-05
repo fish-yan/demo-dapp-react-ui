@@ -7,6 +7,23 @@ import {
 import './patch-local-storage-for-github-pages';
 import {CreateJettonRequestDto} from "./server/dto/create-jetton-request-dto";
 
+const originFetch = window.fetch;
+window.fetch = (input, init?) => {
+
+  if (typeof input === 'string' && input.includes('/wallets-v2.json')) {
+    return Promise.resolve(new Response(JSON.stringify([]), {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' }
+    }));
+  } else if (input instanceof Request && input.url.includes('/wallets-v2.json')) {
+    return Promise.resolve(new Response(JSON.stringify([]), {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' }
+    }));
+  }
+  return originFetch(input, init);
+};
+
 class TonProofDemoApiService {
   private localStorageKey = 'demo-api-access-token';
 
