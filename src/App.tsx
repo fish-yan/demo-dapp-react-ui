@@ -18,13 +18,13 @@ function App() {
           walletsListConfiguration={{
             includeWallets: [
               {
-                appName: "ONTO",
+                appName: "ontoWallet",
                 name: "ONTO",
-                imageUrl: "https://app.ont.io/ontoMsgPic/onto.png",
+                imageUrl: "https://onto.app/ontoMsgPic/onto.png",
                 tondns: "onto.app",
                 aboutUrl: "https://onto.app",
                 universalLink: "https://link.onto.app/ton-connect",
-                jsBridgeKey: "onto",
+                jsBridgeKey: "walletOnto",
                 bridgeUrl: "https://tonbridge.onto.app/bridge",
                 platforms: ["ios", "android"]
               }
