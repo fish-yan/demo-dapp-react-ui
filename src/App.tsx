@@ -18,7 +18,7 @@ function App() {
           walletsListConfiguration={{
             includeWallets: [
               {
-                appName: "ontoWallet",
+                appName: "walletOnto",
                 name: "ONTO",
                 imageUrl: "https://onto.app/ontoMsgPic/onto.png",
                 tondns: "onto.app",
